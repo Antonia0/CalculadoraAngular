@@ -1,0 +1,22 @@
+{
+  "name": "protractor-min-code",
+  "version": "1.0.0",
+  "description": "A sample working protractor project with minimum code required",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && protractor temp/config.js"
+  },
+  "author": "Antonia Hernandez <ahercast@everis.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jasmine": "^2.5.45",
+    "@types/node": "^10.17.16",
+    "fs-extra": "^8.1.0",
+    "jasmine": "^3.5.0",
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-reporters": "^2.3.2",
+    "protractor": "^5.4.3",
+    "protractor-html-reporter-2": "^1.0.4",
+    "typescript": "^3.2.1"
+  }
+}
